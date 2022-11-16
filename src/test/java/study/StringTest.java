@@ -34,7 +34,7 @@ public class StringTest {
     @Test
     void charAt() {
         char actual = "abc".charAt(2);
-        assertThat(actual).isEqualTo("c");
+        assertThat(actual).isEqualTo('c');
     }
 
     @DisplayName("charAt fail test case")
